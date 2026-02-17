@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Utensils, Pizza, ChefHat } from 'lucide-react';
-import Image from 'next/image';
 
 const features = [
   {
@@ -65,11 +64,10 @@ export default function Welcome() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden shadow-2xl"
           >
-            <Image
+            <img
               src="https://lh3.googleusercontent.com/pw/AF1QipOJ-z11UREQ-rEexcShO5vVsvoIvpU9gpvE7dSl=w1920"
               alt="Tucker's Marketplace Dining"
-              fill
-              className="object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
             />
           </motion.div>
         </div>
