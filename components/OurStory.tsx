@@ -34,7 +34,7 @@ export default function OurStory() {
           >
             <div className="relative h-80 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2000&auto=format&fit=crop"
+                src="https://lh3.googleusercontent.com/pw/AF1QipNeAezNfI9SHuG0QbWtMkMIi_I9uuHCCppvbGA4=w1920"
                 alt="Historic ByWard Market"
                 fill
                 className="object-cover"

@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-3xl font-playfair font-bold text-secondary mb-4">
-              Tucker's
+              Tucker's Marketplace
             </h3>
             <p className="text-gray-300 mb-4 italic">
               "Ottawa's Favourite Buffet Since the Days of Mama Tucker"

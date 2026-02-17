@@ -48,7 +48,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-20">
             <a href="#home" onClick={(e) => handleNavClick(e, '#home')} className="flex items-center">
               <span className="text-2xl font-playfair font-bold text-secondary">
-                Tucker's
+                Tucker's Marketplace
               </span>
             </a>
 

@@ -9,32 +9,32 @@ const stations = [
   {
     name: 'The Carvery',
     description: 'Premium roast beef and honey-glazed ham, carved fresh to your preference',
-    image: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://lh3.googleusercontent.com/pw/AF1QipP_q4s9g3ZZpt4hWlbtf_MHf_yPQpVGN7uZDqDF=w1920',
   },
   {
     name: 'Wood-Fired Pizza Oven',
     description: 'Artisan pizzas made to order with fresh toppings',
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://lh3.googleusercontent.com/pw/AF1QipOBD8NkYid_wmEO1FqhFBuq1f3JKgy7-E1WBPW2=w1920',
   },
   {
     name: 'The Pasta Bar',
     description: 'Build your perfect pasta with fresh ingredients',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://lh3.googleusercontent.com/pw/AF1QipMwCVHzzPQ_jnZ35-f5UrNbgrZQJYiXteyEc7gz=w1920',
   },
   {
     name: 'Salad Garden',
     description: 'Farm-fresh greens and house-made dressings',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://lh3.googleusercontent.com/pw/AF1QipOLfL93MVwWh3rhFIBrdTD4PpVOyv7IPSr0IxMy=w1920',
   },
   {
     name: 'Soup Kitchen',
     description: 'Daily rotating soups made from scratch',
-    image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://lh3.googleusercontent.com/pw/AF1QipNFK7mh4b4c5RIVYkG92JUh7k6_ATMRVMx8kIk2=w1920',
   },
   {
     name: 'Dessert Paradise',
     description: 'Decadent cakes, pastries, and sweet treats',
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=2000&auto=format&fit=crop',
+    image: 'https://lh3.googleusercontent.com/pw/AF1QipNrjskDlaz1GrxaakYMCzjTKau3QwMw0Das2qZP=w1920',
   },
 ];
 
