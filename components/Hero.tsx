@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
-import Image from 'next/image';
 
 export default function Hero() {
   const handleScroll = (href: string) => {
@@ -15,12 +14,10 @@ export default function Hero() {
   return (
     <section id="home" className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image
+        <img
           src="https://lh3.googleusercontent.com/pw/AF1QipOeXpFtBGCfZMro03rVyPaKY88AavwyGs1ZN_7j=w1920"
           alt="Tucker's Marketplace Buffet"
-          fill
-          className="object-cover"
-          priority
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50" />
       </div>
@@ -30,26 +27,24 @@ export default function Hero() {
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl sm:text-6xl lg:text-7xl font-playfair font-bold text-white mb-6"
+            transition={{ duration: 0.8 }}
+            className="text-5xl sm:text-6xl lg:text-7xl font-playfair font-bold text-white mb-6 leading-tight"
           >
             Ottawa's Favourite Buffet is Back!
           </motion.h1>
-          
           <motion.p
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl sm:text-2xl text-white mb-12 font-light"
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="text-xl sm:text-2xl text-cream mb-10 max-w-3xl mx-auto"
           >
             Over 50 rotating selections daily in the heart of ByWard Market
           </motion.p>
-
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <button
               onClick={() => handleScroll('#menu')}
