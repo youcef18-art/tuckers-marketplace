@@ -8,52 +8,52 @@ import { X } from 'lucide-react';
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Buffet spread',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipNzs42PfytkwknK7XTYDD8BEk7mhRG1SjjvpG67=w1920',
+    alt: 'Salad bar close-up',
   },
   {
-    src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Restaurant dining',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipNzYT5zhETnkFmiKzB-x4ZPX6nojD3B5DhIYF-Z=w1920',
+    alt: 'Salad bar with fruits',
   },
   {
-    src: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Carved meats',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipOqhWBVYDD7qbWDG8Ybclq5_qyfjrxzgxNPpGMz=w1920',
+    alt: 'Fruits and toppings',
   },
   {
-    src: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Wood-fired pizza',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipPJXnWJRyl3v8Kk4m2-Stu_uFIQNrP3nMhiIb19=w1920',
+    alt: 'Interior booths',
   },
   {
-    src: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Fresh salad',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipPfHdBzkfHxXFyikKFWqUetEL0Ktm6PVfF0aU60=w1920',
+    alt: 'Green walls and hanging plants',
   },
   {
-    src: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Pasta dishes',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipNkDyALT6QSMe1TyRDwrBw01xROtk027UmqxX76=w1920',
+    alt: 'Arched windows dining',
   },
   {
-    src: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Desserts',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipMgxtk0WkciJbtqymlLdzZ8ocPf-AVb8y8fDsL1=w1920',
+    alt: 'Beautiful booth with glass panels',
   },
   {
-    src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Restaurant interior',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipM36f7JN9Tk1favS-ffQPomZOH-mFHN7gXH46ZA=w1920',
+    alt: 'Wide interior with lamps',
   },
   {
-    src: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Family dining',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipOVadQB7ytZdlWy-KZNpiMWsX0Jx6X3jAcv7KRj=w1920',
+    alt: 'Bar area',
   },
   {
-    src: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Soup',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipMZag9jsmmbRLTdczif_iNSaJ2Vxd7n7yXovvWg=w1920',
+    alt: 'Hanging plants detail',
   },
   {
-    src: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Gourmet food',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipMhA5TmjpQ_QVt8NFeZ_-XlCSP-GQ6dAp3fD5QL=w1920',
+    alt: 'Full buffet area',
   },
   {
-    src: 'https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=2000&auto=format&fit=crop',
-    alt: 'Fresh ingredients',
+    src: 'https://lh3.googleusercontent.com/pw/AF1QipOVaM_tSsMQC01o_4AFW7dx1tew9o5qjiOqkwBb=w1920',
+    alt: 'Full dining room',
   },
 ];
 

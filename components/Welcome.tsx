@@ -66,7 +66,7 @@ export default function Welcome() {
             className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden shadow-2xl"
           >
             <Image
-              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2000&auto=format&fit=crop"
+              src="https://lh3.googleusercontent.com/pw/AF1QipOJ-z11UREQ-rEexcShO5vVsvoIvpU9gpvE7dSl=w1920"
               alt="Tucker's Marketplace Dining"
               fill
               className="object-cover"
