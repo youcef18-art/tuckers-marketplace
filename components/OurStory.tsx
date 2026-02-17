@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import Image from 'next/image';
 
 export default function OurStory() {
   const ref = useRef(null);
@@ -33,11 +32,10 @@ export default function OurStory() {
             className="space-y-6"
           >
             <div className="relative h-80 rounded-lg overflow-hidden shadow-xl">
-              <Image
+              <img
                 src="https://lh3.googleusercontent.com/pw/AF1QipNeAezNfI9SHuG0QbWtMkMIi_I9uuHCCppvbGA4=w1920"
                 alt="Historic ByWard Market"
-                fill
-                className="object-cover"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
           </motion.div>
@@ -49,34 +47,30 @@ export default function OurStory() {
             className="space-y-6 text-charcoal leading-relaxed"
           >
             <p className="text-lg">
-              Our story begins in <strong>1789 in Ireland</strong>, where <strong>Mother Tucker 
-              (Mama Lisa)</strong> was born. In 1816, she immigrated to Canada with her husband 
+              Our story begins in <strong>1789 in Ireland</strong>, where <strong>Mother Tucker
+              (Mama Lisa)</strong> was born. In 1816, she immigrated to Canada with her husband
               John Tucker, seeking a new life in the growing colony.
             </p>
-            
             <p className="text-lg">
-              They settled in <strong>Bytown</strong> (later renamed Ottawa), where they opened 
-              a modest boarding house near the <strong>Rideau Canal</strong>. Mama Lisa became 
-              legendary for her hearty cooking, serving generous meals to <strong>Colonel By's 
+              They settled in <strong>Bytown</strong> (later renamed Ottawa), where they opened
+              a modest boarding house near the <strong>Rideau Canal</strong>. Mama Lisa became
+              legendary for her hearty cooking, serving generous meals to <strong>Colonel By's
               men</strong> who were building the canal.
             </p>
-
             <p className="text-lg">
-              More than just a cook, she was a <strong>mother figure</strong> to the workers — 
-              tending to their wounds, listening to their grievances, and providing comfort far 
-              from their families. Her warm hospitality and nurturing spirit earned her the beloved 
+              More than just a cook, she was a <strong>mother figure</strong> to the workers —
+              tending to their wounds, listening to their grievances, and providing comfort far
+              from their families. Her warm hospitality and nurturing spirit earned her the beloved
               name "Mother Tucker."
             </p>
-
             <p className="text-lg">
-              In <strong>1994</strong>, we rebranded as <strong>Tucker's Marketplace</strong>, 
-              transforming into a buffet-style restaurant while honoring Mama Lisa's legacy of 
+              In <strong>1994</strong>, we rebranded as <strong>Tucker's Marketplace</strong>,
+              transforming into a buffet-style restaurant while honoring Mama Lisa's legacy of
               abundant, quality food and genuine care for our guests.
             </p>
-
             <p className="text-lg">
-              Though we closed in <strong>June 2020</strong> due to COVID-19, our community's 
-              love brought us back. We proudly reopened on <strong>January 25, 2023</strong>, 
+              Though we closed in <strong>June 2020</strong> due to COVID-19, our community's
+              love brought us back. We proudly reopened on <strong>January 25, 2023</strong>,
               continuing the tradition that began over two centuries ago.
             </p>
           </motion.div>
