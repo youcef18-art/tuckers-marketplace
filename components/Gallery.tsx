@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import Image from 'next/image';
 import { X } from 'lucide-react';
 
 const galleryImages = [
@@ -63,7 +62,7 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   return (
-    <section id="gallery" className="py-20 bg-background">
+    <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -72,13 +71,10 @@ export default function Gallery() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl sm:text-5xl font-playfair font-bold text-primary mb-6">
-            Gallery
-          </h2>
-          <p className="text-xl text-charcoal italic">
+          <h2 className="text-sm font-semibold text-secondary uppercase tracking-wider mb-2">Gallery</h2>
+          <h3 className="text-4xl sm:text-5xl font-playfair font-bold text-primary">
             A Feast for the Eyes
-          </p>
-          <div className="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+          </h3>
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -87,17 +83,15 @@ export default function Gallery() {
               key={index}
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
-              className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group"
+              transition={{ duration: 0.5, delay: index * 0.05 }}
+              className="relative aspect-square rounded-lg overflow-hidden cursor-pointer group"
               onClick={() => setSelectedImage(index)}
             >
-              <Image
+              <img
                 src={image.src}
                 alt={image.alt}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300"></div>
             </motion.div>
           ))}
         </div>
@@ -105,23 +99,21 @@ export default function Gallery() {
 
       {selectedImage !== null && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center"
           onClick={() => setSelectedImage(null)}
         >
           <button
-            className="absolute top-4 right-4 text-white hover:text-secondary transition-colors"
             onClick={() => setSelectedImage(null)}
             aria-label="Close"
+            className="absolute top-4 right-4 text-white hover:text-secondary transition-colors z-50"
           >
-            <X size={40} />
+            <X size={32} />
           </button>
-          
-          <div className="relative w-full max-w-5xl h-[80vh]">
-            <Image
+          <div className="relative w-full h-full max-w-5xl max-h-[80vh] m-8">
+            <img
               src={galleryImages[selectedImage].src}
               alt={galleryImages[selectedImage].alt}
-              fill
-              className="object-contain"
+              className="w-full h-full object-contain"
             />
           </div>
 
@@ -133,7 +125,7 @@ export default function Gallery() {
             }}
             aria-label="Previous image"
           >
-            ‹
+            &#8249;
           </button>
           <button
             className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-secondary transition-colors text-4xl"
@@ -143,7 +135,7 @@ export default function Gallery() {
             }}
             aria-label="Next image"
           >
-            ›
+            &#8250;
           </button>
         </div>
       )}
